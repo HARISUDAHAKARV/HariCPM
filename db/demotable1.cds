@@ -10,7 +10,8 @@ context master {
         WEB_ADDRESS:String(44);	
         ADDRESS_GUID: String(32);
         BP_ID: String(32);	
-        COMPANY_NAME: String(250);
+        //COMPANY_NAME: String(250);
+       COMPANY_NAME:localized String(255);
     }
 
     entity address {
