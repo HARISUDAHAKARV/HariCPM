@@ -26,4 +26,17 @@ context master {
         LATITUDE: Decimal;
         LONGITUDE: Decimal;
     }
+        entity address2 {
+        key NODE_KEY: String(32);
+        CITY: String(44);
+        POSTAL_CODE: String(8);
+        STREET: String(44);
+        BUILDING:String(128)  ;
+        COUNTRY: String(44);
+        ADDRESS_TYPE: String(44);
+        VAL_START_DATE: Date;
+        VAL_END_DATE:Date;
+        LATITUDE: Decimal;
+        LONGITUDE: Decimal;
+    }
 }
